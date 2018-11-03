@@ -1,6 +1,8 @@
-class AddShowsToNetwork < ActiveRecord::Migration[4.2]
-
+class AddToShows < ActiveRecord::Migration[4.2]
   def change
-    add_column :shows, :network_id, :integer
+    add_column :shows, :genre, :string
+    add_column :shows, :name, :string
+    add_column :shows, :day, :string
+    add_column :shows, :season, :string
   end
 end
