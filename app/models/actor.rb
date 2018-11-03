@@ -9,6 +9,6 @@ class Actor < ActiveRecord::Base
   end
 
   def method_name
-    
+
   end
 end
